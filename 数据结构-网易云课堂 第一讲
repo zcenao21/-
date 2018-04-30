@@ -1,0 +1,55 @@
+### 数据结构
+- 图书如何摆放
+1. 新书如何插入
+2. 如何查找
+- 摆放方法
+1. 随便放
+2. 按照拼音字母放
+这样查找方便，但是插入不容易。
+3. 分类和拼音排序结合
+- 到底什么是数据结构
+1. 数据对象在计算机中的组织方式
+    - 逻辑结构
+    - 物理存储结构
+2. 数据对象必定与一系列加在其上的操作相关联
+3. 完成这些操作的方法叫算法
+- 抽象数据类型
+1. 数据类型
+    - 数据对象集
+    - 数据集合相关联的操作集
+2. 抽象：描述数据类型的方法不依赖于具体实现
+    - 与存放数据的机器无关
+    - 与数据存储的物理结构无关
+    - 与实现操作的算法和编程语言无关
+   
+---
+### 算法
+- 算法
+1. 一个有限指令集
+2. 接受一些输入（有些情况不需要输入）
+3. 产生输出
+4. 一定在有限步骤之后终止
+5. 每一条指令必须
+  - 有充分明确的目标，不可以有歧义
+  - 计算机能处理的范围之内
+  - 描述应不依赖于任何一种语言及具体实现手段
+- 什么是好的算法
+1. 空间复杂度S(n) —— 根据算法写成的程序在执行时占用存储单元的长度。这个长度往往与输入数据的规模有关。空间复杂度过高的算法可能导致使用的内存超限，造成程序非正常中断。
+2.  时间复杂度T(n) —— 根据算法写成的程序在执行时耗费时间的长度。这个长度往往也与输入数据的规模有关。时间复杂度过高的低效算法可能导致我们在有生之年都等不到运行结果。
+- 在分析一般算法的效率时，我们经常关注下面两种复杂度
+![这里写图片描述](https://img-blog.csdn.net/2018041823382443?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2J1Y3RfemM=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+- 复杂度的渐进表示法
+![这里写图片描述](https://img-blog.csdn.net/20180418234726712?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2J1Y3RfemM=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](https://img-blog.csdn.net/20180418234757269?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2J1Y3RfemM=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+- 复杂度分析小窍门
+![这里写图片描述](https://img-blog.csdn.net/20180418234952398?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2J1Y3RfemM=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+
+---
+### 最大子列和问题
+- 问题
+![这里写图片描述](https://img-blog.csdn.net/20180419000912820?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2J1Y3RfemM=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+- 算法
+![这里写图片描述](https://img-blog.csdn.net/20180419001107166?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2J1Y3RfemM=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](https://img-blog.csdn.net/20180419001129936?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2J1Y3RfemM=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](https://img-blog.csdn.net/20180419001222793?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2J1Y3RfemM=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](https://img-blog.csdn.net/20180419001250452?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2J1Y3RfemM=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
